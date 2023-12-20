@@ -97,8 +97,8 @@ export default class About extends Vue {}
 
   .table {
     display: inline-flex;
-    font-size: 1.6rem;
-    font-weight: bold;
+    font-size: 1.8rem;
+    //font-weight: bold;
     color: black;
     border: 1px solid rgba(0, 0, 0, 0.3);
     padding: 1rem;
@@ -131,7 +131,7 @@ export default class About extends Vue {}
       }
     }
     .table {
-      font-size: 1.40rem;
+      font-size: 1.6rem;
       padding: 0.8rem;
       margin: 0.5rem auto 0.8rem;
       tr, td, th {padding: 0.4rem;}
@@ -151,7 +151,7 @@ export default class About extends Vue {}
       }
     }
     .table {
-      font-size: 1.20rem;
+      font-size: 1.4rem;
       padding: 0;
       margin: 0.5rem auto 0.8rem;
       border: none;
