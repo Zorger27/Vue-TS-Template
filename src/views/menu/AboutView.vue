@@ -4,8 +4,17 @@ import infoStore from "@/store/modules/service/infoStore";
 
 @Options({
   computed: {infoStore() {return infoStore}},
-  data() {return {tableView: false,}},
-  methods: {changeView() {this.tableView = !this.tableView;}},
+  data() {
+    return {
+      tableView: false,
+      showMore: false
+    }
+    },
+  methods: {
+    changeView() {
+      this.tableView = !this.tableView;
+      }
+    },
   components: {},
 })
 
@@ -15,12 +24,22 @@ export default class About extends Vue {}
 <template>
   <div class="about">
     <h1 class="main">
-      {{$t ('about.technologies')}} <i @click="changeView"><span :class="['fa', tableView ? 'fa-list' : 'fa-th']"></span></i>
+      {{ $t('about.title') }} <i @click="changeView"><span :class="['fa', tableView ? 'fa-list' : 'fa-th']"></span></i>
     </h1>
+    <line></line>
+    <h2 @click="showMore = !showMore" class="more">{{$t ('about.more01')}}<i style="color: red; margin-left: 0.5rem"
+                                                                             class="fas fa-hand-pointer"></i></h2>
+    <p v-if="showMore" style="margin: 0">{{$t ('about.more02')}}</p>
+    <p v-if="showMore" style="margin: 0">{{$t ('about.more03')}}</p>
+    <h3 v-if="showMore" style="color: deeppink; margin: 0.5rem">{{$t ('about.more04')}}</h3>
+    <h3 v-if="showMore" style="color: deeppink; margin: 0.5rem">{{$t ('about.more05')}}</h3>
     <line></line>
     <div v-if="tableView" class="table">
       <table>
         <thead>
+        <tr>
+          <th class="title" colspan="3">{{ $t('about.technologies') }}</th>
+        </tr>
         <tr>
           <th>№</th>
           <th>{{ $t('about.name') }}</th>
@@ -37,6 +56,7 @@ export default class About extends Vue {}
       </table>
     </div>
     <div v-else class="inner">
+      <h1 class="title" style="text-decoration: underline">{{ $t('about.technologies') }}</h1>
       <div v-for="info in infoStore.state.infoStore" :key="info.id" class="prj">
         <a class="block" :href="info.url" title="In more detail..." target="_blank">
           <h3>
@@ -117,10 +137,25 @@ export default class About extends Vue {}
     }
     .version {text-align: right;color: deeppink;width: 150px;}
   }
+  .title {color: darkgoldenrod;font-size: 2.5rem;}
+
+  .more {
+    display: inline-flex;
+    color: lightseagreen;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    margin: 0.5rem;
+  }
+
+  .more:hover,
+  .more:focus {
+    border-bottom: 1px solid lightseagreen;
+  }
 }
 
 @media(max-width: 1020px) {
   .about {
+    .title {font-size: 2rem;}
     h1 {font-size: 2.3rem;margin: 0.6rem auto;}
 
     .prj {
@@ -140,6 +175,7 @@ export default class About extends Vue {}
 }
 @media (max-width: 768px) {
   .about {
+    .title {font-size: 1.6rem;}
     h1 {font-size: 2rem;margin: 0.5rem auto;}
     .inner {margin-bottom: 0.3rem;}
 

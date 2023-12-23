@@ -9,7 +9,7 @@ module.exports = {
       entry: 'src/main.ts',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Template',
+      title: 'Template №1',
     }
   },
   pwa: {
@@ -56,11 +56,11 @@ module.exports = {
         useHash: false,
         metas: [
           // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtN91P1JteGFo-xrlLKT0PR8u-4P4xs21oUr8Y'}},
-          {attributes: {name: 'description', content: 'Vue.js Start template by Zorger'}},
-          {attributes: {property: 'og:title', content: 'Template'}},
-          {attributes: {property: 'twitter:title', content: 'Template'}},
-          {attributes: {property: 'og:description', content: 'Vue.js Start template by Zorger'}},
-          {attributes: {property: 'twitter:description', content: 'Vue.js Start template by Zorger'}},
+          {attributes: {name: 'description', content: 'Vue.js template with TypeScript'}},
+          {attributes: {property: 'og:title', content: 'Template №1'}},
+          {attributes: {property: 'twitter:title', content: 'Template №1'}},
+          {attributes: {property: 'og:description', content: 'Vue.js template with TypeScript'}},
+          {attributes: {property: 'twitter:description', content: 'Vue.js template with TypeScript'}},
           {attributes: {property: 'og:image', content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'}},
           {attributes: {property: 'twitter:image', content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'}},
           {attributes: {property: 'og:url', content: 'https://vue-start-template.vercel.app'}},
@@ -76,8 +76,8 @@ module.exports = {
         prefix: 'assets/favicon/', // Этот префикс для файла index.html, чтобы правильно прописать пути иконок с сервера!
         manifest: './src/assets/manifest/manifest.webmanifest',
         favicons: {
-          appName: 'Template',
-          appDescription: 'Vue.js Start template by Zorger',
+          appName: 'Template №1',
+          appDescription: 'Vue.js template with TypeScript',
           developerName: 'Zorger',
           developerURL: null
         }

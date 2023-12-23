@@ -1,6 +1,6 @@
 {
   "name": "vue-start-template",
-  "description": "Vue.js Start template",
+  "description": "Vue.js template with TypeScript",
   "version": "0.1.0",
   "private": true,
   "scripts": {
