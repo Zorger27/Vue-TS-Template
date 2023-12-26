@@ -69,7 +69,7 @@ module.exports = {
         ]
       }),
       new FaviconsWebpackPlugin({
-        logo: './src/assets/img/favbig.png',
+        logo: './src/assets/img/favbig.jpg',
         mode: 'webapp',
         devMode: 'webapp',
         outputPath: 'assets/favicon/', // Куда будут на сервере скидываться созданные favicon-ки
