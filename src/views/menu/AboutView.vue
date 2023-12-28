@@ -15,7 +15,6 @@ import infoStore from "@/store/modules/service/infoStore";
       this.tableView = !this.tableView;
       }
     },
-  components: {},
 })
 
 export default class About extends Vue {}
