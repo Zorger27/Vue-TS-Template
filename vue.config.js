@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   pwa: {
-    manifestPath: "https://vue-start-template.vercel.app/assets/favicon/manifest.webmanifest",
+    manifestPath: "https://vue-template-ts.vercel.app/assets/favicon/manifest.webmanifest",
     iconPaths: {
       favicon32: null,
       favicon16: null,
@@ -61,9 +61,9 @@ module.exports = {
           {attributes: {property: 'twitter:title', content: 'Template №1'}},
           {attributes: {property: 'og:description', content: 'Vue.js template with TypeScript'}},
           {attributes: {property: 'twitter:description', content: 'Vue.js template with TypeScript'}},
-          {attributes: {property: 'og:image', content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'}},
-          {attributes: {property: 'twitter:image', content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'}},
-          {attributes: {property: 'og:url', content: 'https://vue-start-template.vercel.app'}},
+          {attributes: {property: 'og:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'}},
+          {attributes: {property: 'twitter:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'}},
+          {attributes: {property: 'og:url', content: 'https://vue-template-ts.vercel.app'}},
           {attributes: {property: 'og:type', content: 'website'}},
           {attributes: {property: 'twitter:card', content: 'summary_large_image'}}
         ]
@@ -83,7 +83,7 @@ module.exports = {
         }
       }),
       new SitemapPlugin({
-        base: 'https://vue-start-template.vercel.app', // Базовый URL моего сайта
+        base: 'https://vue-template-ts.vercel.app', // Базовый URL моего сайта
         paths: [
           { path: '/', priority: 1, changefreq: 'always' },
           { path: '/project2', priority: 1, changefreq: 'daily' },

@@ -23,11 +23,11 @@ const routes: Array<RouteRecordRaw> = [
         },
         {
           property: 'og:image',
-          content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
+          content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'
         },
         {
           property: 'og:url',
-          content: 'https://vue-start-template.vercel.app'
+          content: 'https://vue-template-ts.vercel.app'
         },
         {
           property: 'og:type',
@@ -53,11 +53,11 @@ const routes: Array<RouteRecordRaw> = [
         },
         {
           property: 'og:image',
-          content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
+          content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'
         },
         {
           property: 'og:url',
-          content: 'https://vue-start-template.vercel.app'
+          content: 'https://vue-template-ts.vercel.app'
         },
         {
           property: 'og:type',
@@ -83,11 +83,11 @@ const routes: Array<RouteRecordRaw> = [
         },
         {
           property: 'og:image',
-          content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
+          content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'
         },
         {
           property: 'og:url',
-          content: 'https://vue-start-template.vercel.app'
+          content: 'https://vue-template-ts.vercel.app'
         },
         {
           property: 'og:type',
@@ -113,11 +113,11 @@ const routes: Array<RouteRecordRaw> = [
         },
         {
           property: 'og:image',
-          content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
+          content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'
         },
         {
           property: 'og:url',
-          content: 'https://vue-start-template.vercel.app'
+          content: 'https://vue-template-ts.vercel.app'
         },
         {
           property: 'og:type',
@@ -143,11 +143,11 @@ const routes: Array<RouteRecordRaw> = [
         },
         {
           property: 'og:image',
-          content: 'https://vue-start-template.vercel.app/assets/ogimage/image_all.jpg'
+          content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'
         },
         {
           property: 'og:url',
-          content: 'https://vue-start-template.vercel.app'
+          content: 'https://vue-template-ts.vercel.app'
         },
         {
           property: 'og:type',
