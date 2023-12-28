@@ -28,5 +28,5 @@ npm run build
 
 ### Clone repository
 ```
-git clone https://github.com/Zorger27/Vue-Start-template.git YOUR-PROJECT-NAME
+git clone https://github.com/Zorger27/Vue-TS-Template YOUR-PROJECT-NAME
 ```
