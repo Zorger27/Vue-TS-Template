@@ -55,7 +55,7 @@ module.exports = {
         publicPath: false,
         useHash: false,
         metas: [
-          // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtN91P1JteGFo-xrlLKT0PR8u-4P4xs21oUr8Y'}},
+          // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtM93P1JteGKo-xrlLKT0SR8u-4P4xs31oUr8Y'}},
           {attributes: {name: 'description', content: 'Vue.js template with TypeScript'}},
           {attributes: {property: 'og:title', content: 'Template №1'}},
           {attributes: {property: 'twitter:title', content: 'Template №1'}},
