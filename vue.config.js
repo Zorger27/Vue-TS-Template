@@ -48,7 +48,7 @@ module.exports = {
         //   },
         // ],
         scripts: [
-          // 'https://www.googletagmanager.com/gtag/js?id=G-RZHR947YVN',
+          // 'https://www.googletagmanager.com/gtag/js?id=G-RVMP917YXN',
           // '/assets/analytics/ganal.js'
         ],
         append: true,
