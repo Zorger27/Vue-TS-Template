@@ -45,36 +45,30 @@ const state = {
       },
       {
         id: 8,
-        title: "Grid CSS",
-        version: "",
-        url: "https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout"
-      },
-      {
-        id: 9,
         title: "JavaScript",
         version: "",
         url: "https://developer.mozilla.org/ru/docs/Learn/JavaScript"
       },
       {
-        id: 10,
+        id: 9,
         title: "TypeScript",
         version: "4.5.5",
         url: "https://www.typescriptlang.org/"
       },
       {
-        id: 11,
+        id: 10,
         title: "Axios",
         version: "1.6.2",
         url: "https://axios-http.com"
       },
       {
-        id: 12,
+        id: 11,
         title: "Google Search Console",
         version: "",
         url: "https://search.google.com/search-console"
       },
       {
-        id: 13,
+        id: 12,
         title: "Google Analytics",
         version: "4.0",
         url: "https://analytics.google.com"
