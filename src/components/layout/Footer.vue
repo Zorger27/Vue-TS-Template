@@ -1,5 +1,6 @@
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
+import SocialSharing from "@/components/util/SocialSharing.vue";
 
 @Options({
   data() {
@@ -13,7 +14,7 @@ import {Options, Vue} from "vue-class-component";
       this.$router.push('/about');
     },
   },
-  components: {},
+  components: {SocialSharing},
 })
 
 export default class Footer extends Vue {
@@ -35,6 +36,7 @@ export default class Footer extends Vue {
       </a></b>{{ $t('footer.text3') }}<br>
       <b>&copy; {{ currentYear }}</b> - {{ $t('footer.text4') }}
     </p>
+    <SocialSharing></SocialSharing>
   </footer>
 </template>
 
@@ -88,7 +90,7 @@ footer {
       display: block;
       padding: 0 1rem 0 0;
       margin: 0;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       font-style: italic;
       color: saddlebrown;
     }
