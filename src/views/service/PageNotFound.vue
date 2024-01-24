@@ -1,6 +1,23 @@
 <script lang="ts">
-import {Vue} from "vue-class-component";
+import {Options, Vue} from "vue-class-component";
+import {openGraphMixin} from "@/assets/ogimage/openGraphMixin";
 
+@Options({
+  mixins: [openGraphMixin],
+  mounted() {
+    const mainTitle = 'Page NOT Found';
+    const title = 'TS Template - Page NOT Found';
+    const metaDescription = 'Vue.js template with TypeScript';
+    const description = 'TS Template - Page NOT Found';
+    const imageUrl = 'https://vue-template-ts.vercel.app/assets/ogimage/bmp/image_404.jpg';
+    const url = 'https://vue-template-ts.vercel.app';
+
+    this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
+  },
+  methods: {},
+  components: {},
+})
 export default class PageNotFound extends Vue {}
 </script>
 

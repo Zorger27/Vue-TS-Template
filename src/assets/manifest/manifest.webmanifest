@@ -1,6 +1,6 @@
 {
-  "name": "Template №1",
-  "short_name": "Template №1",
+  "name": "TS Template",
+  "short_name": "TS Template",
   "theme_color": "#4DBA87",
   "start_url": "/",
   "display": "standalone",

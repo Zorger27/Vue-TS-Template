@@ -1,20 +1,29 @@
 <script lang="ts">
 import {Options, Vue} from "vue-class-component";
 import infoStore from "@/store/modules/service/infoStore";
+import {openGraphMixin} from "@/assets/ogimage/openGraphMixin";
 
 @Options({
+  mixins: [openGraphMixin],
   computed: {infoStore() {return infoStore}},
   data() {
     return {
       tableView: false,
       showMore: false
     }
-    },
-  methods: {
-    changeView() {
-      this.tableView = !this.tableView;
-      }
-    },
+  },
+  mounted() {
+    const mainTitle = 'About these TS Projects';
+    const title = 'About these TS Projects';
+    const metaDescription = 'Vue.js template with TypeScript';
+    const description = 'About these TS Projects';
+    const imageUrl = 'https://vue-template-ts.vercel.app/assets/ogimage/bmp/about.jpg';
+    const url = 'https://vue-template-ts.vercel.app/about';
+
+    this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
+  },
+  methods: {changeView() {this.tableView = !this.tableView;}},
 })
 
 export default class About extends Vue {}

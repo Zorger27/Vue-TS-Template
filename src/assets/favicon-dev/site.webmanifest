@@ -1,6 +1,6 @@
 {
-    "name": "Template №1",
-    "short_name": "Template №1",
+    "name": "TS Template",
+    "short_name": "TS Template",
     "icons": [
         {
             "src": "./public/assets/favicon-dev/android-chrome-192x192.png",

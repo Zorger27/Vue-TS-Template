@@ -9,7 +9,7 @@ module.exports = {
       entry: 'src/main.ts',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'Template №1',
+      title: 'TS Template',
     }
   },
   pwa: {
@@ -47,22 +47,22 @@ module.exports = {
             // },
         //   },
         // ],
-        scripts: [
+        // scripts: [
           // 'https://www.googletagmanager.com/gtag/js?id=G-RVMP917YXN',
           // '/assets/analytics/ganal.js'
-        ],
+        // ],
         append: true,
         publicPath: false,
         useHash: false,
         metas: [
           // {attributes: {name: 'google-site-verification', content: 'Gq9vrXtM93P1JteGKo-xrlLKT0SR8u-4P4xs31oUr8Y'}},
           {attributes: {name: 'description', content: 'Vue.js template with TypeScript'}},
-          {attributes: {property: 'og:title', content: 'Template №1'}},
-          {attributes: {property: 'twitter:title', content: 'Template №1'}},
+          {attributes: {property: 'og:title', content: 'TS Template'}},
+          {attributes: {property: 'twitter:title', content: 'TS Template'}},
           {attributes: {property: 'og:description', content: 'Vue.js template with TypeScript'}},
           {attributes: {property: 'twitter:description', content: 'Vue.js template with TypeScript'}},
-          {attributes: {property: 'og:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'}},
-          {attributes: {property: 'twitter:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/image_all.jpg'}},
+          {attributes: {property: 'og:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/bmp/image_all.jpg'}},
+          {attributes: {property: 'twitter:image', content: 'https://vue-template-ts.vercel.app/assets/ogimage/bmp/image_all.jpg'}},
           {attributes: {property: 'og:url', content: 'https://vue-template-ts.vercel.app'}},
           {attributes: {property: 'og:type', content: 'website'}},
           {attributes: {property: 'twitter:card', content: 'summary_large_image'}}
@@ -76,7 +76,7 @@ module.exports = {
         prefix: 'assets/favicon/', // Этот префикс для файла index.html, чтобы правильно прописать пути иконок с сервера!
         manifest: './src/assets/manifest/manifest.webmanifest',
         favicons: {
-          appName: 'Template №1',
+          appName: 'TS Template',
           appDescription: 'Vue.js template with TypeScript',
           developerName: 'Zorger',
           developerURL: null

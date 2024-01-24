@@ -1,7 +1,20 @@
 <script lang="ts">
 import {Options, Vue} from 'vue-class-component';
+import {openGraphMixin} from "@/assets/ogimage/openGraphMixin";
 
 @Options({
+  mixins: [openGraphMixin],
+  mounted() {
+    const mainTitle = 'TS - Project № 3';
+    const title = 'TS template - Project № 3';
+    const metaDescription = 'Vue.js template with TypeScript';
+    const description = 'Vue.js template with TypeScript - Project № 3';
+    const imageUrl = 'https://vue-template-ts.vercel.app/assets/ogimage/bmp/project3.jpg';
+    const url = 'https://vue-template-ts.vercel.app/project3';
+
+    this.setOpenGraphTags(metaDescription, title, description, imageUrl, url);
+    this.setPageTitle(mainTitle);
+  },
   methods: {},
   components: {},
 })
