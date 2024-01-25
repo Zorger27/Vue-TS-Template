@@ -82,7 +82,7 @@ header {
   }
 
   .header-logo {
-    margin: 0.2rem;
+    margin: 0.3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
