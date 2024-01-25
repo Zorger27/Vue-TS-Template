@@ -10,8 +10,8 @@ import SocialSharing from "@/components/util/SocialSharing.vue";
     };
   },
   methods: {
-    navigateToPortfolio() {
-      window.open('https://zorin.expert', '_blank');
+    about() {
+      this.$router.push('/about');
     },
   },
   components: {SocialSharing},
@@ -23,7 +23,7 @@ export default class Footer extends Vue {
 
 <template>
   <footer>
-    <div class="footer-logo" @click="navigateToPortfolio">
+    <div class="footer-logo" @click="about">
       <img :src="getFooterLogoImage" alt="Footer Logo Image">
     </div>
     <p class="footer-text">{{ $t('footer.text1') }}
