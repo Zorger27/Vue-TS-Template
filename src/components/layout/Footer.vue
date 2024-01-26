@@ -12,7 +12,7 @@ import SocialSharing from "@/components/util/SocialSharing.vue";
   methods: {
     navigateToPortfolio() {
       window.open('https://zorin.expert', '_blank');
-    },
+    }
   },
   components: {SocialSharing},
 })
