@@ -2,7 +2,7 @@
 [![Use this template](https://img.shields.io/badge/Use%20this%20template-darkred?style=for-the-badge)](https://github.com/Zorger27/Vue-TS-Template/generate)
 ### You can view my CV (Landing Page) here: [Curriculum VITAE](https://zorger27.github.io)❗️ ###
 ### You can view my Portfolio (SPA) here: [My Portfolio](https://Zorin.Expert)❗️ ###
-### Technologies: [Vue.js v.3.3.10](https://v3.ru.vuejs.org), [VueX](https://vuex.vuejs.org), HTML5, CSS3, FlexBox CSS, JavaScript, TypeScript. ###
+### Technologies: Vue.js, VueX, HTML5, CSS3, FlexBox CSS, JavaScript, TypeScript. ###
 ![Screen](https://github.com/Zorger27/Vue-Start-template/assets/30940416/7a20f594-12db-4de9-88fa-6bdf54ddff7e)
 <br>
 + This is the Starter Development Template on Vue.js + TypeScript with **internationalization**, **routers** and **store**.<br>
