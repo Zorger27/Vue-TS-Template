@@ -31,9 +31,9 @@
   "about": {
     "title": "Mis TypeScript proyectos",
     "more01": "Más información...",
-    "more02": "Esta es la plantilla de desarrollo inicial en Vue.js + TypeScript con internacionalización, enrutadores y almacenamiento.",
-    "more03": "Preparado para conexión a Google Analytics y Google Search Console. La plantilla está personalizada y optimizada para la tecnología PWA (Progressive Web App).",
-    "more04": "¡Hay MUCHAS cosas interesantes aquí! \uD83D\uDE09\uD83E\uDD13",
+    "more02": "\uD83C\uDF10 Una poderosa plantilla inicial para desarrollar aplicaciones de una sola página (SPA), perfectamente adecuada para proyectos web modernos.",
+    "more03": "✨ El diseño completamente adaptable garantiza que el sitio se vea genial en cualquier tamaño de pantalla: computadoras de escritorio, tabletas y teléfonos inteligentes. La compatibilidad con la internacionalización (Vue I18n) y sus tres idiomas integrados (ucraniano, inglés y español) facilita el acceso a una audiencia global.",
+    "more04": "\uD83D\uDE80 La facilidad de personalización y escalabilidad hacen de esta plantilla la base perfecta para crear aplicaciones complejas y con múltiples funciones.",
     "more05": "¡Bienvenido! \uD83E\uDD29\uD83D\uDE0E",
     "technologies": "Tecnologías",
     "name": "Nombre",
