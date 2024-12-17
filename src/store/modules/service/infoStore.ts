@@ -64,7 +64,7 @@ const state = {
       {
         id: 11,
         title: "TypeScript",
-        version: "4.5.5",
+        version: "5.7.2",
         url: "https://www.typescriptlang.org/"
       },
       {
