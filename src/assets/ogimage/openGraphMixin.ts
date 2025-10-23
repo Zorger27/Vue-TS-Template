@@ -38,7 +38,6 @@ export const openGraphMixin = {
       document.head.appendChild(link);
     },
 
-
     // Устанавливает Open Graph и Twitter мета-теги
     setOpenGraphTags(metaDescription: string, title: string, description: string, imageUrl: string, url: string): void {
       const metaTags: MetaTag[] = [
